@@ -50,19 +50,27 @@ img{
     margin-left: 10px;
     font-size: 13px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 @media screen and (max-width: 375px){
 
 
+
+
+
+
+
+
+    
     
 *{
     padding: 0;
     margin: 0;
 }
 .container{
-    margin-top: 4%;
-    margin-left: 11%;
-    margin-right: 9%;
+    margin-top: 4px;
+    margin-left: 4%;
+
     height: 100%;
     margin-bottom: 20px;
 }
@@ -74,38 +82,44 @@ h4{
 }
 
 .textSuperior{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: block;
 }
 
+.col2_text2{
+    margin-top: 10%;
+
+}
 .col2_text2>p{
+    margin: auto;
     margin-top: 3%;
-    width: 70%;
     font-size: 18px;
+    width: 100%;
 }
-
-
-.row{
-    margin-top: 4%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.col3{
+    margin-top: 0;
 }
 .col2{
-    margin-top: 20%;
+    margin-top: 0;
 }
+.row{
+    margin-top: 6%;
+    display: block
+}
+
 img{
-    width: 238px;
-    height: 347px;
+    width: 138.72px;
+    height: 209px;
 }
 .row_Image{
     display: grid;
-    grid-template-columns: repeat(2,1fr)
+    grid-template-columns: repeat(2,1fr);
 }
 .verticalText{
     writing-mode: vertical-lr;
-    margin-left: 10px;
+    margin-left: 7px;
     font-size: 13px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 

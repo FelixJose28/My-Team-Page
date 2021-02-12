@@ -7,6 +7,8 @@
     margin-top: 4%;
     margin-left: 11%;
     margin-right: 9%;
+    height: 100%;
+    margin-bottom: 20px;
 }
 h1{
     font-size: 35px;
@@ -19,14 +21,11 @@ h4{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-.col1_text1{
-    background-color: aquamarine;
-}
+
 .col2_text2>p{
     margin-top: 3%;
     width: 70%;
     font-size: 18px;
-    background-color: cadetblue;
 }
 
 
@@ -43,21 +42,12 @@ img{
     height: 347px;
 }
 .row_Image{
-    background-color: aqua;
     display: grid;
     grid-template-columns: repeat(2,1fr)
 }
 .verticalText{
     writing-mode: vertical-lr;
     margin-left: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
 }
-/* .verticalText{
-    font-weight: bold;
-    font-size: 11px;
-    margin-left: 10px;
-    width: 10px;
-    word-wrap: break-word; 
-}
-.verticalText>p{
-    margin: 0;
-} */
